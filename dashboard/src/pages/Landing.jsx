@@ -12,7 +12,7 @@ const NAV = [
   { href: "#capabilities", label: "Capabilities" },
   { href: "#results", label: "Results" },
   { href: "#stack", label: "Stack" },
-  { href: "#team", label: "Team" },
+  { href: "#about", label: "About" },
 ];
 
 const STEPS = [
@@ -381,28 +381,20 @@ export default function Landing() {
           </div>
         </section>
 
-        <section id="team" className="lp-section lp-section--alt" aria-labelledby="team-heading">
+        <section id="about" className="lp-section lp-section--alt" aria-labelledby="about-heading">
           <div className="lp-shell">
-            <p className="lp-kicker">Team {TEAM.id}</p>
-            <h2 id="team-heading">Built as a final-year project.</h2>
+            <p className="lp-kicker">Author</p>
+            <h2 id="about-heading">Developed &amp; Maintained by Yash Rai</h2>
             <ul className="lp-team">
               {TEAM.members.map((member) => (
                 <li key={member}>
                   <span className="lp-avatar" aria-hidden="true">
-                    {member
-                      .split(" ")
-                      .map((part) => part[0])
-                      .join("")
-                      .slice(0, 2)}
+                    YR
                   </span>
                   <span className="lp-team-name">{member}</span>
                 </li>
               ))}
             </ul>
-            <p className="lp-team-meta">
-              {TEAM.institution}, {TEAM.university} &middot; Team ID {TEAM.id} &middot; Guide{" "}
-              {TEAM.guide}
-            </p>
           </div>
         </section>
       </main>
@@ -411,20 +403,13 @@ export default function Landing() {
         <div className="lp-shell lp-footer-inner">
           <div>
             <span className="lp-brand lp-brand--footer">
-              AI<span className="lp-brand-dim">-</span>OPS
+              Trace<span className="lp-brand-dim">Mind</span>
             </span>
             <p>Autonomous log anomaly detection and root cause analysis for microservices.</p>
           </div>
           <div className="lp-footer-links">
             <a href={config.GITHUB_URL} target="_blank" rel="noreferrer noopener">
-              github.com/yuvrajpawar09/AI-Ops
-            </a>
-            <a
-              href={`${config.GITHUB_URL}/blob/main/LICENSE`}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              MIT License
+              github.com/yashxcode91/TraceMind
             </a>
             <Link to="/login">Sign in</Link>
           </div>

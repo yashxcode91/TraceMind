@@ -7,13 +7,13 @@ export const config = {
 
   UNHEALTHY_WINDOW_MINUTES: 10,
 
-  GITHUB_URL: "https://github.com/yuvrajpawar09/AI-Ops",
+  GITHUB_URL: "https://github.com/yashxcode91/TraceMind",
 };
 
 export const TEAM = {
-  id: "BCC31",
-  institution: "MIT School of Computing",
-  university: "MIT-ADT University",
-  guide: "Prof. Karan Mashal",
-  members: ["Pawar Yuvraj", "Aditya Suryawanshi", "Aalok Nikam", "Aditya Pawade"],
+  id: "TraceMind",
+  institution: "",
+  university: "",
+  guide: "",
+  members: ["Yash Rai"],
 };

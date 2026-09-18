@@ -1,12 +1,12 @@
-# AI-Ops: Autonomous Log Anomaly Detection & Root Cause Analysis
+# TraceMind: Autonomous Log Anomaly Detection & Root Cause Analysis
 
 **A self-hosted system that detects microservice failures, diagnoses their root cause with a local LLM, and — for a known failure pattern — applies a real fix, verifies it worked, and rolls back if it didn't. Zero paid APIs; everything runs on one laptop.**
 
 ---
 
-## Team
+## Author
 
-Built by **Pawar Yuvraj**, **Aditya Suryawanshi**, **Aalok Nikam**, and **Aditya Pawade** — 7th Semester B.Tech CSE, MIT School of Computing, MIT-ADT University, Pune. Team ID: BCC31. Guide: Prof. Karan Mashal.
+Developed and maintained by **Yash Rai**.
 
 ---
 
@@ -228,8 +228,8 @@ The cold-start trace v2 flagged was structurally perfect — 10 events, correct 
 **Create the environment file first.** Every secret comes from `.env`, which is gitignored; nothing is hardcoded and no service will start without it.
 
 ```bash
-git clone https://github.com/yuvrajpawar09/AI-Ops.git
-cd AI-Ops
+git clone https://github.com/yashxcode91/TraceMind.git
+cd TraceMind
 cp .env.example .env
 ```
 
@@ -388,8 +388,4 @@ AI-Ops/
 
 ---
 
-## License
-
-Released under the MIT License — see [LICENSE](LICENSE) for the full text.
-
-Copyright (c) 2026 Pawar Yuvraj
+Developed & Maintained by Yash Rai
